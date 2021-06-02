@@ -8,6 +8,7 @@ const Character = ({ character }) => {
 
     return (
         <div
+            data-testid="listitem"
             className={styles.characterDiv}
             style={{ borderColor: theme ? 'white' : 'black' }}
         >

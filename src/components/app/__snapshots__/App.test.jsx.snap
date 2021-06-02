@@ -2,8 +2,486 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <header
+    style="background-color: white;"
+  >
+    <span
+      class="MuiSwitch-root"
+    >
+      <span
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorSecondary"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <input
+            class="PrivateSwitchBase-input-4 MuiSwitch-input"
+            type="checkbox"
+            value=""
+          />
+          <span
+            class="MuiSwitch-thumb"
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </span>
+      <span
+        class="MuiSwitch-track"
+      />
+    </span>
+    <span
+      style="color: black;"
+    >
+      Dark Mode
+    </span>
+  </header>
+  <div
+    class="list"
+    style="background-color: white; color: black;"
+  >
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Rick Sanchez
+      </h1>
+      <img
+        alt="Rick Sanchez"
+        src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (C-137)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Morty Smith
+      </h1>
+      <img
+        alt="Morty Smith"
+        src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (C-137)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Summer Smith
+      </h1>
+      <img
+        alt="Summer Smith"
+        src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (Replacement Dimension)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Beth Smith
+      </h1>
+      <img
+        alt="Beth Smith"
+        src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (Replacement Dimension)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Jerry Smith
+      </h1>
+      <img
+        alt="Jerry Smith"
+        src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (Replacement Dimension)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Abadango Cluster Princess
+      </h1>
+      <img
+        alt="Abadango Cluster Princess"
+        src="https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Alien
+      </p>
+      <p>
+        Origin: Abadango
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Abradolf Lincler
+      </h1>
+      <img
+        alt="Abradolf Lincler"
+        src="https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+      />
+      <p>
+        Status: unknown
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (Replacement Dimension)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Adjudicator Rick
+      </h1>
+      <img
+        alt="Adjudicator Rick"
+        src="https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+      />
+      <p>
+        Status: Dead
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Agency Director
+      </h1>
+      <img
+        alt="Agency Director"
+        src="https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+      />
+      <p>
+        Status: Dead
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (Replacement Dimension)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Alan Rails
+      </h1>
+      <img
+        alt="Alan Rails"
+        src="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+      />
+      <p>
+        Status: Dead
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Albert Einstein
+      </h1>
+      <img
+        alt="Albert Einstein"
+        src="https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+      />
+      <p>
+        Status: Dead
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (C-137)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Alexander
+      </h1>
+      <img
+        alt="Alexander"
+        src="https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+      />
+      <p>
+        Status: Dead
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (C-137)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Alien Googah
+      </h1>
+      <img
+        alt="Alien Googah"
+        src="https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+      />
+      <p>
+        Status: unknown
+      </p>
+      <p>
+        Species: Alien
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Alien Morty
+      </h1>
+      <img
+        alt="Alien Morty"
+        src="https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+      />
+      <p>
+        Status: unknown
+      </p>
+      <p>
+        Species: Alien
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Alien Rick
+      </h1>
+      <img
+        alt="Alien Rick"
+        src="https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+      />
+      <p>
+        Status: unknown
+      </p>
+      <p>
+        Species: Alien
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Amish Cyborg
+      </h1>
+      <img
+        alt="Amish Cyborg"
+        src="https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+      />
+      <p>
+        Status: Dead
+      </p>
+      <p>
+        Species: Alien
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Annie
+      </h1>
+      <img
+        alt="Annie"
+        src="https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: Earth (C-137)
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Antenna Morty
+      </h1>
+      <img
+        alt="Antenna Morty"
+        src="https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+      />
+      <p>
+        Status: Alive
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Antenna Rick
+      </h1>
+      <img
+        alt="Antenna Rick"
+        src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+      />
+      <p>
+        Status: unknown
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+    <div
+      class="characterDiv"
+      data-testid="listitem"
+      style="border-color: black;"
+    >
+      <h1>
+        Ants in my Eyes Johnson
+      </h1>
+      <img
+        alt="Ants in my Eyes Johnson"
+        src="https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+      />
+      <p>
+        Status: unknown
+      </p>
+      <p>
+        Species: Human
+      </p>
+      <p>
+        Origin: unknown
+      </p>
+    </div>
+  </div>
 </DocumentFragment>
 `;
